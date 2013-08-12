@@ -71,3 +71,23 @@ projects[omega][type] = theme
 projects[aa_theme][type] = theme
 projects[aa_theme][download][type] = git
 projects[aa_theme][download][url] = git@github.com:ohjimijimijimi/aa_theme.git
+
+; libraries
+libraries[jcrop][download][type] = git
+libraries[jcrop][download][url] = git@github.com:tapmodo/Jcrop.git
+libraries[jcrop][download][tag] = v0.9.12
+libraries[jcrop][directory_name] = jcrop
+
+libraries[json2][download][type] = git
+libraries[json2][download][url] = git@github.com:douglascrockford/JSON-js.git
+libraries[json2][download][branch] = master
+libraries[json2][directory_name] = json2
+
+libraries[plupload][download][type] = git
+libraries[plupload][download][url] = git@github.com:moxiecode/plupload.git
+libraries[plupload][download][tag] = 1.5.7
+libraries[plupload][directory_name] = plupload
+
+libraries[tinymce][download][type] = file
+libraries[tinymce][download][url] = http://download.moxiecode.com/tinymce/tinymce_3.5.8_jquery.zip
+libraries[tinymce][directory_name] = tinymce 
