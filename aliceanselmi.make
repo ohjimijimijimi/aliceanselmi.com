@@ -19,6 +19,7 @@ projects[uuid_features][subdir] = contrib
 projects[devel][subdir] = contrib
 projects[module_filter][subdir] = contrib
 
+projects[date][subdir] = contrib
 projects[partial_date][subdir] = contrib
 projects[entityreference][subdir] = contrib
 projects[field_collection][subdir] = contrib
@@ -38,6 +39,8 @@ projetcs[rules][subdir] = contrib
 projects[wysiwyg][subdir] = contrib
 projects[wysiwyg_filter][subdir] = contrib
 projects[link][subdir] = contrib
+projects[addressfield][subdir] = contrib
+projects[rules][subdir] = contrib
 
 projects[mollom][subdir] = contrib
 projects[google_analytics][subdir] = contrib
@@ -80,6 +83,11 @@ projects[aa_wysiwyg][subdir] = features
 projects[aa_wysiwyg][type] = module
 projects[aa_wysiwyg][download][type] = git
 projects[aa_wysiwyg][download][url] = git@github.com:ohjimijimijimi/aa_wysiwyg.git
+
+projects[aa_menu_footer][subdir] = features
+projects[aa_menu_footer][type] = module
+projects[aa_menu_footer][download][type] = git
+projects[aa_menu_footer][download][url] = git@github.com:ohjimijimijimi/aa_menu_footer.git
 
 ; download themes
 projects[omega][type] = theme
