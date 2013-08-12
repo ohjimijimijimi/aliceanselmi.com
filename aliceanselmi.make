@@ -61,25 +61,25 @@ projects[addressfield_map_formatter][download][type] = git
 projects[addressfield_map_formatter][download][url] = git@github.com:ohjimijimijimi/addressfield_map_formatter.git
 
 ; features 
-projetcs[aa_project][subdir] = features
-projetcs[aa_project][type] = module
-projetcs[aa_project][download][type] = git
-projetcs[aa_project][download][url] = git@github.com:ohjimijimijimi/aa_project.git
+projects[aa_project][subdir] = features
+projects[aa_project][type] = module
+projects[aa_project][download][type] = git
+projects[aa_project][download][url] = git@github.com:ohjimijimijimi/aa_project.git
 
-projetcs[aa_rules_menu][subdir] = features
-projetcs[aa_rules_menu][type] = module
-projetcs[aa_rules_menu][download][type] = git
-projetcs[aa_rules_menu][download][url] = git@github.com:ohjimijimijimi/aa_rules_menu.git
+projects[aa_rules_menu][subdir] = features
+projects[aa_rules_menu][type] = module
+projects[aa_rules_menu][download][type] = git
+projects[aa_rules_menu][download][url] = git@github.com:ohjimijimijimi/aa_rules_menu.git
 
-projetcs[aa_social][subdir] = features
-projetcs[aa_social][type] = module
-projetcs[aa_social][download][type] = git
-projetcs[aa_social][download][url] = git@github.com:ohjimijimijimi/aa_social.git
+projects[aa_social][subdir] = features
+projects[aa_social][type] = module
+projects[aa_social][download][type] = git
+projects[aa_social][download][url] = git@github.com:ohjimijimijimi/aa_social.git
 
-projetcs[aa_wysiwyg][subdir] = features
-projetcs[aa_wysiwyg][type] = module
-projetcs[aa_wysiwyg][download][type] = git
-projetcs[aa_wysiwyg][download][url] = git@github.com:ohjimijimijimi/aa_wysiwyg.git
+projects[aa_wysiwyg][subdir] = features
+projects[aa_wysiwyg][type] = module
+projects[aa_wysiwyg][download][type] = git
+projects[aa_wysiwyg][download][url] = git@github.com:ohjimijimijimi/aa_wysiwyg.git
 
 ; download themes
 projects[omega][type] = theme
