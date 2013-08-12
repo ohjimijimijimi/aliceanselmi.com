@@ -1,0 +1,7 @@
+site/*
+aa_profile/*
+.jsdtscope
+*.swp
+.settings/*
+.project
+.buildpath
