@@ -66,6 +66,21 @@ projetcs[aa_project][type] = module
 projetcs[aa_project][download][type] = git
 projetcs[aa_project][download][url] = git@github.com:ohjimijimijimi/aa_project.git
 
+projetcs[aa_rules_menu][subdir] = features
+projetcs[aa_rules_menu][type] = module
+projetcs[aa_rules_menu][download][type] = git
+projetcs[aa_rules_menu][download][url] = git@github.com:ohjimijimijimi/aa_rules_menu.git
+
+projetcs[aa_social][subdir] = features
+projetcs[aa_social][type] = module
+projetcs[aa_social][download][type] = git
+projetcs[aa_social][download][url] = git@github.com:ohjimijimijimi/aa_social.git
+
+projetcs[aa_wysiwyg][subdir] = features
+projetcs[aa_wysiwyg][type] = module
+projetcs[aa_wysiwyg][download][type] = git
+projetcs[aa_wysiwyg][download][url] = git@github.com:ohjimijimijimi/aa_wysiwyg.git
+
 ; download themes
 projects[omega][type] = theme
 projects[aa_theme][type] = theme
