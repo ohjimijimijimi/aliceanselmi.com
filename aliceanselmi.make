@@ -57,3 +57,6 @@ projetcs[aa_project][download][url] = git@github.com:ohjimijimijimi/aa_project.g
 
 ; download themes
 projects[omega][type] = theme
+projects[aa_theme][type] = theme
+projects[aa_theme][download][type] = git
+projects[aa_theme][download][url] = git@github.com:ohjimijimijimi/aa_theme.git
