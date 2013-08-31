@@ -1,7 +1,8 @@
 api = 2
 core = 7.x
 
-projects[] = drupal
+projects[drupal][type] = core
+projects[drupal][patch][1525176] = https://drupal.org/files/drupal7.entity-system.1525176-104.patch
 
 projects[ctools][subdir] = contrib
 projects[views][subdir] = contrib
