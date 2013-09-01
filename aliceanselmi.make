@@ -42,6 +42,7 @@ projects[wysiwyg_filter][subdir] = contrib
 projects[link][subdir] = contrib
 projects[addressfield][subdir] = contrib
 projects[rules][subdir] = contrib
+projects[back_to_top][subdir] = contrib
 
 projects[mollom][subdir] = contrib
 projects[google_analytics][subdir] = contrib
@@ -54,10 +55,10 @@ projects[aa_profile][download][type] = git
 projects[aa_profile][download][url] = git@github.com:ohjimijimijimi/aa_profile.git
 
 ; custom modules
-projects[menu_attr_color][subdir] = custom
-projects[menu_attr_color][type] = module
-projects[menu_attr_color][download][type] = git
-projects[menu_attr_color][download][url] = git@github.com:ohjimijimijimi/menu_attr_color.git
+; projects[menu_attr_color][subdir] = custom
+; projects[menu_attr_color][type] = module
+; projects[menu_attr_color][download][type] = git
+; projects[menu_attr_color][download][url] = git@github.com:ohjimijimijimi/menu_attr_color.git
 
 projects[addressfield_map_formatter][subdir] = custom
 projects[addressfield_map_formatter][type] = module
@@ -107,10 +108,10 @@ libraries[json2][download][url] = git@github.com:douglascrockford/JSON-js.git
 libraries[json2][download][branch] = master
 libraries[json2][directory_name] = json2
 
-libraries[plupload][download][type] = git
-libraries[plupload][download][url] = git@github.com:moxiecode/plupload.git
-libraries[plupload][download][tag] = 1.5.7
+libraries[plupload][download][type] = file
+libraries[plupload][download][url] = http://plupload.com/downloads/plupload_1_5_7.zip
 libraries[plupload][directory_name] = plupload
+libraries[plupload][patch][1903850] = https://drupal.org/files/plupload-1_5_7-rm_examples-1903850-11.patch
 
 libraries[tinymce][download][type] = file
 libraries[tinymce][download][url] = http://download.moxiecode.com/tinymce/tinymce_3.5.8_jquery.zip
