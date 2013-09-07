@@ -69,6 +69,11 @@ projects[aa_project][type] = module
 projects[aa_project][download][type] = git
 projects[aa_project][download][url] = git@github.com:ohjimijimijimi/aa_project.git
 
+projects[aa_breakpoints][subdir] = features
+projects[aa_breakpoints][type] = module
+projects[aa_breakpoints][download][type] = git
+projects[aa_breakpoints][download][url] = git@github.com:ohjimijimijimi/aa_breakpoints.git
+
 projects[aa_rules_menu][subdir] = features
 projects[aa_rules_menu][type] = module
 projects[aa_rules_menu][download][type] = git
