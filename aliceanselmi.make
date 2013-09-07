@@ -11,6 +11,8 @@ projects[libraries][subdir] = contrib
 projects[token][subdir] = contrib
 projects[pathauto][subdir] = contrib
 projects[context][subdir] = contrib
+projects[strongarm][subdir] = contrib
+projects[features_extra][subdir] = contrib
 
 projects[diff][subdir] = contrib
 projects[features][subdir] = contrib
@@ -49,10 +51,6 @@ projects[google_analytics][subdir] = contrib
 projects[xmlsitemap][subdir] = contrib
 projects[metatag][subdir] = contrib
 
-; installation profiles
-projects[aa_profile][type] = profile
-projects[aa_profile][download][type] = git
-projects[aa_profile][download][url] = git@github.com:ohjimijimijimi/aa_profile.git
 
 ; custom modules
 ; projects[menu_attr_color][subdir] = custom
@@ -115,4 +113,10 @@ libraries[plupload][patch][1903850] = https://drupal.org/files/plupload-1_5_7-rm
 
 libraries[tinymce][download][type] = file
 libraries[tinymce][download][url] = http://download.moxiecode.com/tinymce/tinymce_3.5.8_jquery.zip
-libraries[tinymce][directory_name] = tinymce 
+libraries[tinymce][directory_name] = tinymce
+
+; installation profiles
+projects[aa_profile][type] = profile
+projects[aa_profile][download][type] = git
+projects[aa_profile][download][url] = git@github.com:ohjimijimijimi/aa_profile.git
+ 
